@@ -22,7 +22,7 @@ window.customCards.push({
 	name: "Slide to Confirm",
 	description: "Prevent accidental actions by requiring a full-width slide to confirm.",
 	preview: true,
-	documentationURL: "https://github.com/itsbrianburton/slide-confirm",
+	documentationURL: "https://github.com/dbuezas/slide-confirm",
 });
 
 console.info(

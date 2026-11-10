@@ -1,9 +1,8 @@
 # Slide to Confirm
 
 > **Fork of [itsbrianburton/slide-confirm](https://github.com/itsbrianburton/slide-confirm)**
-> with improved looks, a [haptic snap](#snap), twelve [themes](#themes) and more.
-> To install it with HACS, add `https://github.com/dbuezas/slide-confirm` as a custom repository
-> (type: Dashboard).
+> with improved looks, a [haptic snap](#snap), twelve [themes](#themes) and more. See
+> [Installation](#installation) to install this fork.
 
 <img src="img/snap.webp" alt="Snap" height="92">
 
@@ -20,7 +19,7 @@ while you are out. A slide across the full width of your phone is hard to do by 
 
 ## Screenshot
 
-![Screenshot](https://github.com/itsbrianburton/slide-confirm/raw/main/img/screenshot.png)
+![Screenshot](img/screenshot.png)
 
 ## Screencast
 
@@ -33,13 +32,13 @@ Requires Home Assistant 2024.8 or newer.
 ### HACS (recommended)
 
 1. In HACS, open **Frontend**, then the three-dot menu, then **Custom repositories**.
-2. Add `https://github.com/itsbrianburton/slide-confirm` as a **Dashboard** repository.
+2. Add `https://github.com/dbuezas/slide-confirm` as a **Dashboard** repository.
 3. Install **Slide to Confirm** and reload the page when prompted.
 
 ### Manual
 
 1. Download `slide-confirm.js` from the latest
-   [release](https://github.com/itsbrianburton/slide-confirm/releases).
+   [release](https://github.com/dbuezas/slide-confirm/releases).
 2. Copy it to `config/www/slide-confirm.js`.
 3. Add a dashboard resource: **Settings → Dashboards → ⋮ → Resources → Add resource**, URL
    `/local/slide-confirm.js`, type **JavaScript module**.
