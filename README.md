@@ -1,5 +1,12 @@
 # Slide to Confirm
 
+> **Fork of [itsbrianburton/slide-confirm](https://github.com/itsbrianburton/slide-confirm)**
+> with improved looks, a [haptic snap](#snap), twelve [themes](#themes) and more.
+> To install it with HACS, add `https://github.com/dbuezas/slide-confirm` as a custom repository
+> (type: Dashboard).
+
+<img src="img/snap.webp" alt="Snap" height="92">
+
 A custom card for [Home Assistant](https://www.home-assistant.io) that prevents accidental
 actions. Instead of tapping a button, you drag a handle all the way across the card. Nothing
 happens until the handle reaches the far end.
