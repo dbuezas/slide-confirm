@@ -149,13 +149,22 @@ export const sliderStyles = css`
 		--mdc-icon-size: calc(var(--_handle-size) * 0.5);
 		cursor: grab;
 		touch-action: none;
-		/* The translate property (not transform) so a design's scale never scales the offset. */
-		translate: var(--_x, 0px) -50%;
+		transform: translate(var(--_x, 0px), -50%);
 		transition:
+			transform 300ms,
 			translate 300ms,
 			background-color 300ms,
 			border-color 300ms;
 		outline: none;
+	}
+
+	/* Where supported, the translate property instead, so a theme's scale (or card_mod's)
+	   never scales the offset. Older WebViews keep transform; they lack scale too. */
+	@supports (translate: 0) {
+		.handle {
+			transform: none;
+			translate: var(--_x, 0px) -50%;
+		}
 	}
 
 	.rtl .handle {

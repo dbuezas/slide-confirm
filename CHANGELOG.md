@@ -19,8 +19,9 @@ All notable changes to this project are documented here. The format follows
 
 ### Changed
 
-- The handle is positioned with the CSS `translate` property instead of `transform`, so a
-  `scale` (from a theme or card_mod) no longer shifts it.
+- Where the browser supports it, the handle is positioned with the CSS `translate` property
+  instead of `transform`, so a `scale` (from a theme or card_mod) no longer shifts it. Older
+  WebViews keep `transform`, so the handle still works there.
 
 ## [Unreleased] – 2.0.0
 
