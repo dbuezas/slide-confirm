@@ -4,7 +4,7 @@
 > with improved looks, a [haptic snap](#snap), twelve [themes](#themes) and more. See
 > [Installation](#installation) to install this fork.
 
-<img src="img/snap.webp" alt="Snap" height="92">
+<img src="img/themes/glow.webp" alt="Glow theme in motion" height="92">
 
 A custom card for [Home Assistant](https://www.home-assistant.io) that prevents accidental
 actions. Instead of tapping a button, you drag a handle all the way across the card. Nothing
